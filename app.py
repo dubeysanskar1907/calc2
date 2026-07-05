@@ -2,8 +2,10 @@
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-# Calculate the sum
-result = num1 + num2
+# Calculate the results
+sum_result = num1 + num2
+mult_result = num1 * num2
 
-# Display the addition result
-print(f"The sum of {num1} and {num2} is: {result}")
+# Display the results
+print(f"The sum of {num1} and {num2} is: {sum_result}")
+print(f"The multiplication of {num1} and {num2} is: {mult_result}")
